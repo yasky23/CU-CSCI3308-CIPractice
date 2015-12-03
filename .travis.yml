@@ -1,4 +1,5 @@
-- sudo apt-get install check
+before_script:
+ - sudo apt-get install check
 
 language: c
 script: make && make test
